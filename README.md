@@ -29,10 +29,11 @@ bundle exec rake importer:run
 4. Account menu in the upper-right (has your name on it)
 5. sub-menu: Security Credentials
 
-With your keys, as we are using [dotenv](https://github.com/bkeepers/dotenv),
-you need to create a file and put your env variables.
+### Create your ENV Variables
 
-1. Create your .env.local / production file for Alexa Top Sites:
+1. Add the following KEYS in your environment:
+
+These variables are used because of [Ralexa](https://github.com/flippa/ralexa)
 
 ```
 AWS_ACCESS_KEY_ID=<KEY>
