@@ -16,6 +16,8 @@ gem 'rails_12factor', group: :production
 
 gem 'puma'
 
+gem 'pry'
+
 gem 'foreman'
 
 gem 'rubocop'

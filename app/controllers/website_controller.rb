@@ -1,6 +1,6 @@
 class WebsiteController < ActionController::API
   def index
-    render json: Website.all
+    render json: Website.all.limit(100)
   end
 
   def show
