@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20151231031723) do
 
   create_table "websites", force: :cascade do |t|
     t.string   "url",                              null: false
-    t.string   "screenshot",                       null: false
+    t.string   "screenshot"
     t.integer  "reach",                  limit: 8
     t.integer  "rank",                             null: false
     t.integer  "page_views_per_million"

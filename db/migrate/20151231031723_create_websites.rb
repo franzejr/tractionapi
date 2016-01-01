@@ -2,7 +2,7 @@ class CreateWebsites < ActiveRecord::Migration
   def change
     create_table :websites do |t|
       t.string :url, null: false
-      t.string :screenshot, null: false
+      t.string :screenshot
       t.integer :reach, limit: 8
       t.integer :rank, null: false
       t.integer :page_views_per_million
